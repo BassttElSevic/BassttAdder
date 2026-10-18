@@ -60,6 +60,7 @@
 
 module BassttAdder (
     input   wire         clk,
+    input   wire         rst_n,  // 核心板系统复位键，低有效（PIN_K1）
     input   wire  [3:0]  keys,
 //    output  wire  [7:0]  segs
 //    output  wire  [2:0]  sels,
@@ -70,17 +71,17 @@ wire [3:0] keys_with_debounced_output;
 
 input_stage u_input_stage (
 
-    .clk            (clk),
-    .sws            (keys),
-    .sws_output     (keys_with_debounced_output)
+    .clk        (clk),
+    .rst_n      (rst_n),
+    .sws        (keys),
+    .sws_output (keys_with_debounced_output)
 
 );
 
 leds_displayer u_leds_displayer (
 
-    .clk            (clk),
-    .leds_input     (keys_with_debounced_output),
-    .leds_output    (leds)
+    .leds_input  (keys_with_debounced_output),
+    .leds_output (leds)
 
 );
 
