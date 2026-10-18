@@ -4,4 +4,13 @@ module leds_displayer (
     output wire [3:0] leds_output
 );
     assign leds_output = leds_input;
+/*
+always @(*) begin
+    // 那个数字就亮几个，每次只按一个
+    if (leds_input == 4'b1111) begin
+        leds_output 
+    end
+end
+*/
+
 endmodule
