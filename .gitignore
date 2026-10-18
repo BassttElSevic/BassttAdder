@@ -1,0 +1,16 @@
+# Quartus 生成的数据库、报告和编程文件（可重新编译生成）
+/db/
+/incremental_db/
+/output_files/
+
+# Quartus GUI 工作区和临时文件
+*.qws
+*.qdf
+*.bak
+*.rpt
+*.log
+
+# 编辑器临时文件
+*.swp
+*.swo
+*~
