@@ -76,3 +76,11 @@ make program                # JTAG 临时下载 .sof；断电后失效
 ## 许可证
 
 本项目采用 [MIT License](LICENSE)。
+
+## Choose Life
+
+<img width="1080" height="723" alt="ChooseLife" src="https://github.com/user-attachments/assets/e75574a2-d737-4999-9eda-97ace082a824" />
+
+<img width="1920" height="1920" alt="D75C00D76AE467D615249CAA7313645F" src="https://github.com/user-attachments/assets/300cacbb-eb72-42a8-8a00-dd8f469736d0" />
+
+<img width="1256" height="1292" alt="ezgif com-gif-maker" src="https://github.com/user-attachments/assets/d67c7685-7a46-4537-90f2-6e23dc352f62" />
